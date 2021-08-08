@@ -1,3 +1,4 @@
+/* general styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,16 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* navigation styling start */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +51,9 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* navigation style end */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* hero image styling start */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +62,11 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* hero image styling end */
+
+
+
+
 
 .float-left {
     float: left;
@@ -188,13 +197,13 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
